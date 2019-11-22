@@ -16,6 +16,12 @@ import java.util.Set;
 public class FileUtil {
 
 
+    /**
+     * @author yarm
+     * @date 2019/11/22
+     * @return java.util.Map<java.lang.String,java.lang.String>
+     * @Description:uri resource下的文件相对路径
+     */
     public static Map<String, String> getPropertis(String uri){
         Map<String, String> pMap = new HashMap<>();
         InputStream  inputStream = null;
@@ -42,5 +48,10 @@ public class FileUtil {
         }
 
         return pMap;
+    }
+
+    public static void main(String[] args) {
+        Map<String, String> map = FileUtil.getPropertis("default.properties");
+        System.out.println(map);
     }
 }

@@ -8,6 +8,7 @@ import lombok.Data;
  * @author: yarm
  * @create: 2019-11-18 10:51
  */
+// 没有引入包的话自行写get set方法
 @Data
 public class HttpClientResult {
     private static final long serialVersionUID = 2168152194164783950L;
