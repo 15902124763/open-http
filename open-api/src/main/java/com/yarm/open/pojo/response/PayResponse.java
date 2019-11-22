@@ -1,4 +1,4 @@
-package com.yarm.client.pojo.response;
+package com.yarm.open.pojo.response;
 
 import lombok.Data;
 

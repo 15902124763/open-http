@@ -1,7 +1,6 @@
-package com.yarm.client.util;
+package com.yarm.open.util;
 
 import com.yarm.common.http.HttpClientUtil;
-import com.yarm.common.pojo.ApiResponse;
 import com.yarm.common.pojo.HttpClientResult;
 
 import java.util.HashMap;

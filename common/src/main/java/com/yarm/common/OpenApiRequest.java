@@ -17,6 +17,8 @@ public class OpenApiRequest<T> {
     private String host;
     // uri
     private String uri;
+    // 环境如dev、prd等
+    private String env;
     // 请求入参
     private T data;
 

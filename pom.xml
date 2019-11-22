@@ -15,6 +15,7 @@
       <module>boot-service</module>
       <module>boot-client</module>
       <module>common</module>
+        <module>aop</module>
     </modules>
 
     <name>open-http</name>

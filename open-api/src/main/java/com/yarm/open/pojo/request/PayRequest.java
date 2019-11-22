@@ -1,10 +1,6 @@
-package com.yarm.client.pojo.request;
+package com.yarm.open.pojo.request;
 
 import lombok.Data;
-
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
 
 /**
  * @program: open-http
